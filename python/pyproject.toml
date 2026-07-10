@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "AVATAR"
+version = "0.1.0"
+description = "Host-side typed serial link (bool/int/float/string) for Arduino/ESP32."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Nharen M", email = "nharen.m@gmail.com" }, {name = "Nikhil", email = "nikhil.arun@icloud.com"}]
+dependencies = ["pyserial>=3.5"]
+keywords = ["serial", "arduino", "esp32", "cobs", "protocol", "telemetry"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: System :: Hardware",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourname/AVATAR"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["AVATAR*"]
