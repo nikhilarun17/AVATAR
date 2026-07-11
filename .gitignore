@@ -1,0 +1,19 @@
+# Build output
+dist/
+build/
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+myenv/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
