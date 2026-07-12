@@ -13,7 +13,7 @@ source ~/venv/bin/activate
 ```
 
 ```bash
-cd ~/microros-replacement/python
+cd ~/AVATAR/python
 pip install .
 ```
 
@@ -22,7 +22,7 @@ blocked on newer Debian/Ubuntu and macOS installs (`externally-managed-environme
 error). Either use a venv as above, or run:
 
 ```bash
-cd ~/microros-replacement/python
+cd ~/AVATAR/python
 pip install . --break-system-packages
 ```
 

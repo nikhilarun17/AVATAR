@@ -22,7 +22,7 @@ Check [Information on Ports](#information-on-ports)
 ## Repository layout
 
 ```
-microros-replacement/
+AVATAR/
 ├── README.md              you are here
 ├── docs/PROTOCOL.md       the wire format 
 ├── arduino/                the C++ library
@@ -48,8 +48,8 @@ microros-replacement/
 ### 1. Clone and build the Arduino library
 
 ```bash
-git clone https://github.com/yourname/microros-replacement.git ~/microros-replacement
-cd ~/microros-replacement
+git clone https://github.com/nikhilarun17/AVATAR.git ~/AVATAR
+cd ~/AVATAR
 chmod +x tools/build_arduino_zip.sh
 ./tools/build_arduino_zip.sh
 mkdir -p ~/Arduino/libraries
@@ -69,7 +69,7 @@ To run example : go to *File → Examples → AVATAR → LedBlink*.
 ```bash
 mkdir -p ~/Arduino/libraries
 cd ~/Arduino/libraries
-curl -L -o AVATAR.zip https://github.com/yourname/microros-replacement/raw/main/dist/AVATAR.zip
+curl -L -o AVATAR.zip https://github.com/nikhilarun17/AVATAR/raw/main/dist/AVATAR.zip
 unzip -o AVATAR.zip
 ```
 
@@ -81,7 +81,7 @@ source ~/venv/bin/activate
 ```
 
 ```bash
-cd ~/microros-replacement/python
+cd ~/AVATAR/python
 pip install .
 ```
 
@@ -90,14 +90,14 @@ blocked on newer Debian/Ubuntu and macOS installs (`externally-managed-environme
 error). Either use a venv as above, or run:
 
 ```bash
-cd ~/microros-replacement/python
+cd ~/AVATAR/python
 pip install . --break-system-packages
 ```
 
 ### 4. Run an example
 
 ```bash
-cd ~/microros-replacement/python/examples
+cd ~/AVATAR/python/examples
 python led_blink.py
 ```
 

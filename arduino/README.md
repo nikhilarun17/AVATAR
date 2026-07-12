@@ -8,8 +8,8 @@ and parsing of bool / int / float / string fields addressed by numeric IDs.
 ### 1. Clone and build the Arduino library
 
 ```bash
-git clone https://github.com/yourname/microros-replacement.git ~/microros-replacement
-cd ~/microros-replacement
+git clone https://github.com/nikhilarun17/AVATAR.git ~/AVATAR
+cd ~/AVATAR
 chmod +x tools/build_arduino_zip.sh
 ./tools/build_arduino_zip.sh
 mkdir -p ~/Arduino/libraries
@@ -29,7 +29,7 @@ To run example : go to *File → Examples → AVATAR → LedBlink*.
 ```bash
 mkdir -p ~/Arduino/libraries
 cd ~/Arduino/libraries
-curl -L -o AVATAR.zip https://github.com/yourname/microros-replacement/raw/main/dist/AVATAR.zip
+curl -L -o AVATAR.zip https://github.com/nikhilarun17/AVATAR/raw/main/dist/AVATAR.zip
 unzip -o AVATAR.zip
 ```
 
